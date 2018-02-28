@@ -1,0 +1,18 @@
+import * as React from "react"
+
+const good = <input
+               type="text"
+               value="Text"
+             />;
+
+const bad = <input
+              type="text"
+              value={undefined}
+            />;      ~~~~~~~~~ [error]
+
+const alsoBad = <input
+                  type="text"
+                  value={null}
+                />;      ~~~~ [error]
+
+[error]: React components should never be able to have undefined/null passed into a value prop or the component will become uncontrolled.

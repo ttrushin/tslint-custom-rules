@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "react-disallow-nil-in-value-props": true
+  }
+}
