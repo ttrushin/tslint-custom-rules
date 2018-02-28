@@ -1,3 +1,0 @@
-const test1 = <Field width={width} action={action} />;
-               ~~~~~ [error]
-[error]: JSX Elements must be sorted alphabetically.

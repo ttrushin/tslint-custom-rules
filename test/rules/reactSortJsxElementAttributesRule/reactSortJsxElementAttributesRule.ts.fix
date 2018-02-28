@@ -1,1 +1,0 @@
-const test1 = <Field action={action} width={width} />;
