@@ -1,8 +1,7 @@
 {
   "name": "tslint-custom-rules",
-  "version": "1.0.0",
-  "description":
-    "A collection of custom TSLint rules, all of which are disabled by default; devs can choose which rules to enable",
+  "version": "1.0.1",
+  "description": "A collection of custom TSLint rules, all of which are disabled by default; devs can choose which rules to enable",
   "main": "index.js",
   "repository": "https://github.com/ttrushin/tslint-custom-rules.git",
   "author": "Tyler Trushin <tyler.trushin@gmail.com>",
