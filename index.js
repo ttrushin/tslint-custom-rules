@@ -1,3 +1,8 @@
+const path = require("path");
+
 module.exports = {
-  rulesDirectory: "dist/"
+  rulesDirectory: path.join(
+    path.dirname(require.resolve("tslint-custom-rules")),
+    "dist/"
+  )
 };
