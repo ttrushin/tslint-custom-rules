@@ -1,0 +1,9 @@
+interface One {
+  abc: string;
+  xyz: string;
+}
+
+interface Two {
+  abc: string;
+  xyz: string;
+}
