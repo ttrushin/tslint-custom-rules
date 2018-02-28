@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "react-sort-jsx-element-attributes": true
+  }
+}

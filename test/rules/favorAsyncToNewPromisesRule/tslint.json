@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "favor-async-to-new-promises": true
+  }
+}

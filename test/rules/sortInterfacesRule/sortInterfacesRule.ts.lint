@@ -1,0 +1,11 @@
+interface One {
+  abc: string;
+  xyz: string;
+}
+
+interface Two {
+          ~~~   [error % ("Two")]
+  xyz: string;
+  abc: string;
+}
+[error]: TypeScript interface "%s" must be sorted alphabetically

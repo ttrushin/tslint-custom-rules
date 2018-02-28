@@ -1,0 +1,8 @@
+this.something.hello = ""
+
+this.props.something = 123
+
+this.state.something.somethingElse = true
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [error]
+
+[error]: Do not mutate state.
